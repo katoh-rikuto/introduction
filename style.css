@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Zen+Kurenaido&display=swap');
+
+/* 本文
+font-family: 'Noto Serif JP', serif;
+タイトル
+font-family: 'Zen Kurenaido', sans-serif; */
+
+.satapro-text,.memorial-text{
+    font-family: 'Noto Serif JP', serif;
+}
+.satapro-title,.memorial-title,.club-title{
+    font-family: 'Zen Kurenaido', sans-serif; 
+    font-size: 35px;
+    background: linear-gradient(transparent 52%, rgb(125,157,215) 93%);
+}
+.satapro,.memorial,.club{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+img{
+    width: 100%;
+}
+html{
+    background-color: rgb(216, 235, 235);
+}
+body{
+    margin:0px;
+}
+.top{
+    position: relative;
+    width: 100%;
+    height:56vw
+}
+.toptitle{
+    font-family: 'Zen Kurenaido', sans-serif; 
+    font-size: 32px;
+    position:absolute;
+    left: 0px;
+    bottom: 7px;
+    background-color: rgb(171 171 191 / 65%);
+    color: rgb(47 51 55);
+    margin: 0;
+    width: 95%;
+    padding-top: 8px;
+    padding-left: 5%;
+}
+.topimage{
+    position:absolute
+}
+.swiper--wrapper {
+    /* wrapperのサイズを調整 */
+    width: 100%;
+    height: 300px;
+  }
+  
+  .swiper-slide {
+    /* スライドのサイズを調整、中身のテキスト配置調整、背景色 */
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .imagewrap{
+    justify-content:space-between;
+    display:flex;
+    width:100%;
+    height:auto;
+
+  }
+  .imagewrap>img{
+    width:30%;
+    object-fit: cover;
+  }
+   section{
+    margin-bottom: 70px;
+}
+header{
+    background-color: rgb(201 193 241);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    position: fixed;
+    z-index: 10;  
+    width: 100%;
+}
+header>img{
+    display: block;
+    width: auto;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top{
+    padding-top:42px
+}
